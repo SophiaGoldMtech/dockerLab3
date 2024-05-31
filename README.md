@@ -11,3 +11,4 @@ docker service scale coolimage-stack_mywebsite=2
 
 Remove your stack and delete your containers:
 docker stack rm coolimage-stack
+docker container rm f9d
