@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "node": "^20.2.0"
-  }
+  },
+  "name": "dockerlab3",
+  "description": "Deploy the stack: docker stack deploy -c docker-compose.yaml coolimage-stack",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
